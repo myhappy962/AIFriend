@@ -52,7 +52,7 @@ const router = createRouter({
       name:'user-space-index',
     },
       {
-      path:'/user/profile',
+      path:'/user/profile/',
       component:ProfileIndex,
       name:'user-profile-index',
     },

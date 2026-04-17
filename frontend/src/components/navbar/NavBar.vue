@@ -5,6 +5,12 @@ import HomepageIcon from "@/components/navbar/icons/HomepageIcon.vue";
 import FrinedIcon from "@/components/navbar/icons/FrinedIcon.vue";
 import CreatIcon from "@/components/navbar/icons/CreatIcon.vue";
 import SearchIcon from "@/components/navbar/icons/SearchIcon.vue";
+import {useUserrStore} from "@/stores/user.ts";
+import UserMenu from "@/components/navbar/UserMenu.vue";
+
+
+
+const user  =useUserrStore()
 </script>
 
 <template>
@@ -30,9 +36,14 @@ import SearchIcon from "@/components/navbar/icons/SearchIcon.vue";
   </div>
       </div>
       <div class="navbar-end">
-      <RouterLink :to="{name:'user-account-login-index'}" active-class = "btn-active" class="btn btn-ghost text-lg">
+        <RouterLink v-if = "user.isLogin()" :to="{name:'create-index'}" active-class="btn-active" class="btn btn-ghost text-base mr-6" >
+        <CreatIcon />
+        创作
+        </RouterLink>
+      <RouterLink v-if = "!user.isLogin()" :to="{name:'user-account-login-index'}" active-class = "btn-active" class="btn btn-ghost text-lg">
         登录
       </RouterLink>
+        <UserMenu v-else />
       </div>
     </nav>
     <!-- Page content here -->

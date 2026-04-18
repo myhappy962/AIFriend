@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils.timezone import now, localtime
 
+# from web.views.user import profile as user_profile_views
 from web.models.user import UserProfile
 import uuid
 

@@ -3,7 +3,7 @@ from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
 
 from web.models.character import Character
-
+# from django.db import models
 
 class GetSingleCharacterView(APIView):
     permission_classes = [IsAuthenticated]

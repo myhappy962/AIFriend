@@ -1,3 +1,4 @@
+from web.views.homepage.index import HomepageIndexView
 from web.views.create.character.create import CreateCharacterView
 from web.views.create.character.get_list import GetListCharacterView
 from web.views.create.character.get_single import GetSingleCharacterView
@@ -24,6 +25,7 @@ urlpatterns = [
  path('api/create/character/update/',UpdateCharacterView.as_view()),
  path('api/create/character/get_single/',GetSingleCharacterView.as_view()),
     path('api/create/character/get_list/',GetListCharacterView.as_view()),
+    path('api/homepage/index/', HomepageIndexView.as_view()),
     path('',index),
 
     re_path(r'^(?!media/|static/|assets/).*$', index)

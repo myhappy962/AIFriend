@@ -5,12 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "run-p type-check \"build-only {@}\" --",
+    "build": "npm run build-only",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build"
   },
   "dependencies": {
+    "@microsoft/fetch-event-source": "^2.0.1",
     "@tailwindcss/vite": "^4.2.2",
     "axios": "^1.15.0",
     "croppie": "^2.6.5",

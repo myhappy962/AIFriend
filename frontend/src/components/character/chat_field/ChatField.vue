@@ -43,6 +43,12 @@ function handleAddToLastMessage(delta) {
 function handlePushFrontMessage(msg) {
   history.value.unshift(msg)
 }
+
+function handleClose(){
+  modalRef.value.close()
+  inputRef.value.close()
+}
+
 defineExpose({
   showModal,
 })

@@ -1,2 +1,12 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+body {
+  /* 使用绝对路径 /bg.jpg 保证部署后依然生效 */
+  background-image: url('/static/frontend/bg.jpg');
+  background-size: cover;          /* 让图片覆盖整个屏幕 */
+  background-position: center;     /* 图片居中 */
+  background-attachment: fixed;    /* 页面滚动时背景图固定不动 */
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}

@@ -31,8 +31,8 @@ function handleSearch() {
 <template>
   <div class="drawer lg:drawer-open">
     <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
-    <div class="drawer-content">
-      <nav class="navbar w-full bg-base-100 shadow-sm">
+    <div class="drawer-content bg-transparent">
+      <nav class="navbar w-full bg-base-100/60 backdrop-blur-lg shadow-sm border-b border-white/10">
         <div class="navbar-start">
           <label for="my-drawer-4" aria-label="open sidebar" class="btn btn-square btn-ghost">
             <MenuIcon />
@@ -41,8 +41,8 @@ function handleSearch() {
         </div>
         <div class="navbar-center w-4/5 max-w-180 flex justify-center">
           <form @submit.prevent="handleSearch" class="join w-4/5 flex justify-center">
-            <input v-model="searchQuery" class="input join-item rounded-l-full w-4/5" placeholder="搜索你感兴趣的内容" />
-            <button class="btn join-item rounded-r-full gap-0">
+            <input v-model="searchQuery" class="input join-item rounded-l-full w-4/5 bg-base-100/80" placeholder="搜索你感兴趣的内容" />
+            <button class="btn join-item rounded-r-full gap-0 bg-base-200/80">
               <SearchIcon />
               搜索
             </button>
@@ -64,7 +64,7 @@ function handleSearch() {
 
     <div class="drawer-side is-drawer-close:overflow-visible">
       <label for="my-drawer-4" aria-label="close sidebar" class="drawer-overlay"></label>
-      <div class="flex min-h-full flex-col items-start bg-base-200 is-drawer-close:w-16 is-drawer-open:w-54">
+      <div class="flex min-h-full flex-col items-start bg-base-200/60 backdrop-blur-lg border-r border-white/10 is-drawer-close:w-16 is-drawer-open:w-54">
         <ul class="menu w-full grow">
           <li>
             <RouterLink :to="{name: 'homepage-index'}" active-class="menu-focus" class="is-drawer-close:tooltip is-drawer-close:tooltip-right py-3" data-tip="首页">

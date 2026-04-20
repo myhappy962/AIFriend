@@ -27,9 +27,11 @@ onMounted(async () => {
       character.value = data.character
     }
   } catch (err) {
+       if (err.response && err.response.status === 401) {
+        router.push({ name: 'user-account-login-index' })
+    }
   }
 })
-
 const photoRef = useTemplateRef('photo-ref')
 const nameRef = useTemplateRef('name-ref')
 const profileRef = useTemplateRef('profile-ref')

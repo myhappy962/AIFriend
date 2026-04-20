@@ -18,7 +18,7 @@ from web.views.friend.remove import RemoveFriendView
 from web.views.friend.message.chat.chat import MessageChatView
 from web.views.friend.message.get_history import GetHistoryView
 from web.views.friend.message.asr.asr import ASRView
-
+from web.views.create.character.voice.get_list import GetVoiceList
 
 urlpatterns = [
    path('api/user/account/login/',LoginView.as_view()),
@@ -40,6 +40,7 @@ urlpatterns = [
 path('api/friend/message/chat/', MessageChatView.as_view()),
 path('api/friend/message/get_history/', GetHistoryView.as_view()),
 path('api/friend/message/asr/asr/', ASRView.as_view()),
+    path('api/create/character/voice/get_list/', GetVoiceList.as_view()),
     path('',index),
 
     re_path(r'^(?!media/|static/|assets/).*$', index)

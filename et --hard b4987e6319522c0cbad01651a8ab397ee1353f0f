@@ -1,0 +1,161 @@
+[33mcommit b4987e6319522c0cbad01651a8ab397ee1353f0f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Mon Apr 20 11:03:42 2026 +0800
+
+    完工
+
+[33mcommit 2f4f879ad88cb17a72a3d991b8033b9e75d9d658[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Sun Apr 19 22:29:54 2026 +0800
+
+    实现前端播放声音
+
+[33mcommit 430651263630ea4ee0af55fec3728ec62fe52d53[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Sun Apr 19 21:53:50 2026 +0800
+
+    实现语音识别后端
+
+[33mcommit 9645a3fa2d0387d231953199264682dd4de02e06[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Sun Apr 19 20:13:44 2026 +0800
+
+    添加知识库
+
+[33mcommit 744f70c5e2350099ac401e8523faf3041a1a45ea[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Sun Apr 19 19:19:52 2026 +0800
+
+    添加长期记忆
+
+[33mcommit a4acd78a3f8412fc9a5b67398f921189d381386d[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Sun Apr 19 15:12:39 2026 +0800
+
+    实现好友列表前端
+
+[33mcommit 81202551041829ff6fc66bffce5a0a2635cf0e84[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Sun Apr 19 14:45:07 2026 +0800
+
+    实现聊天框
+
+[33mcommit 051d3024c4e0fd9acb7c3801a79232b41f466b3c[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Sun Apr 19 11:38:15 2026 +0800
+
+    实现搜索功能
+
+[33mcommit 69e881b62f9eabc4840c113ff65bac377af9c4f3[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Sun Apr 19 10:51:41 2026 +0800
+
+    实现角色卡片
+
+[33mcommit 37ca2e1158d8bd690d3f309c1ae0bae74faf40dd[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Sun Apr 19 09:39:06 2026 +0800
+
+    实现个人主页后端；实现个人主页用户信息区
+
+[33mcommit 779f1683f1ca8aa12b5f9a9986398896e0bc153d[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Sat Apr 18 22:04:17 2026 +0800
+
+    打补丁
+
+[33mcommit 0f0be97e94c665a27698af8ffe713cf7e8458ad6[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Sat Apr 18 21:18:46 2026 +0800
+
+    实现更新虚拟角色前端页面
+
+[33mcommit 262b17ca9dce139fb4eb9f3b97537a2f5a1f7dd2[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Sat Apr 18 18:00:38 2026 +0800
+
+    实现完创建虚拟角色前端
+
+[33mcommit 6b7a4a7883af01587451ad59acaf7c0b3ce9eaf0[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Sat Apr 18 15:44:06 2026 +0800
+
+    实现角色增删改查后端api
+
+[33mcommit 2d70e85802a6349d5b9839aefda22b5976f03ed1[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Sat Apr 18 15:07:07 2026 +0800
+
+    实现编辑资料页面前端
+
+[33mcommit 2da1c8ca6e007385e4da04cbca59f0a7f5a9d93e[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Sat Apr 18 09:59:54 2026 +0800
+
+    创建更新用户资料后端API
+
+[33mcommit 243cd13b38d20934eacddba50dc044092851ca3e[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Fri Apr 17 20:25:04 2026 +0800
+
+    第一次打开页面或者刷新页面时，从云端动态拉取用户信息
+
+[33mcommit e168e8619ffce2b96ec0106344afed5497a90860[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Fri Apr 17 18:54:53 2026 +0800
+
+    前端对接注册、登录、退出api
+
+[33mcommit d41c10df582cbf1bec3d53da5fe338f83a473150[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Fri Apr 17 11:44:03 2026 +0800
+
+    实现下拉菜单
+
+[33mcommit 7576adb4fdc76854fb07cd1d74a03432971409dd[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Thu Apr 16 20:55:20 2026 +0800
+
+    '实现后端'
+
+[33mcommit 92960da424b52a758d93562a151b55bf1dfce299[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Thu Apr 16 17:15:07 2026 +0800
+
+    '实现数据库'
+
+[33mcommit 471a543aebb09f0737049802c85d5853e025e931[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Thu Apr 16 16:29:01 2026 +0800
+
+    '实现注册登录页面'
+
+[33mcommit c15d9faf846cb81f2fa6949c89dd024693ad7abd[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Thu Apr 16 16:15:39 2026 +0800
+
+    '实现路由'
+
+[33mcommit d307b6c04dd1a90c804570f46a81ff307c7135e8[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Thu Apr 16 15:17:39 2026 +0800
+
+    '打补丁'
+
+[33mcommit 5863cbed81b17d89c8d48515f8074e9418d84d66[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Thu Apr 16 14:58:54 2026 +0800
+
+    '创建导航栏'
+
+[33mcommit 3c65102f471193ce177503748616f280cd70be49[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Thu Apr 16 10:39:03 2026 +0800
+
+    '删除示例代码'
+
+[33mcommit 504e4b45858c85e2af138f08b48fa53c8112842d[m
+Author: hangyu guo <3025943684@qq.com>
+Date:   Thu Apr 16 10:10:35 2026 +0800
+
+    Initial commit

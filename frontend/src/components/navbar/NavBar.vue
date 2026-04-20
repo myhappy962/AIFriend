@@ -37,7 +37,7 @@ function handleSearch() {
           <label for="my-drawer-4" aria-label="open sidebar" class="btn btn-square btn-ghost">
             <MenuIcon />
           </label>
-          <div class="px-2 font-bold text-xl">还没想好叫什么..</div>
+          <div class="px-2 font-bold text-xl">AIFriends</div>
         </div>
         <div class="navbar-center w-4/5 max-w-180 flex justify-center">
           <form @submit.prevent="handleSearch" class="join w-4/5 flex justify-center">
@@ -73,9 +73,9 @@ function handleSearch() {
             </RouterLink>
           </li>
           <li>
-            <RouterLink :to="{name: 'friend-index'}" active-class="menu-focus" class="is-drawer-close:tooltip is-drawer-close:tooltip-right py-3" data-tip="历史">
+            <RouterLink :to="{name: 'friend-index'}" active-class="menu-focus" class="is-drawer-close:tooltip is-drawer-close:tooltip-right py-3" data-tip="好友">
               <FriendIcon />
-              <span class="is-drawer-close:hidden text-base ml-2 whitespace-nowrap">历史</span>
+              <span class="is-drawer-close:hidden text-base ml-2 whitespace-nowrap">好友</span>
             </RouterLink>
           </li>
           <li>
